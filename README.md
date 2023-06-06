@@ -4,13 +4,17 @@
 ### Naming Conventions
 
 Turbo-barnacle = Initial Repo (Main branch)
-Prop-Initial-Edit = Initial branch
-  * if sub-branch is required begin naming conventions alphabetically with fruit. 
-  > Initial-Edit-Apricot
-  
-  > Initial-Edit-Banana
 
----
+Initial-Edit = First branch off main
+  * if sub-branch is required, begin naming conventions alphabetically with fruit. 
+  #### EXAMPLE:
+  > Initial-Edit-Apricot
+ 
+ In the following example, the inital branch `banana`, has a branch of it's own `blueberry`. This is used to test if `C` can be added to `B` successfully, before merging both into `A` (the main branch).
+  > Initial-Edit-Banana
+  > > Initial-Edit-Blueberry
+ 
+ ---
 
 ### Creating a Repo
   - Used to organize a single project
